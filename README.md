@@ -1,18 +1,41 @@
-## Getting Started
+## [Task 01 - RPNStacker Adhoc]
+[CIn UFPE]
+[Compiladores 2022.2 CC]
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Roteiro:
+- rever a ultima aula sobre notacao posfixa [reverse polish notation]
+- Implementar uma linguagem RPN stacker em Java/python [ou qualquer linguagem] usando uma pilha como estrutura de dados
+- Programa le um arquivo com a expressao em RPN e avaliar
 
-## Folder Structure
+Exemplo de entrada:
+10
+10
++
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Inputs (arquivos):
+input01.txt
+input02.txt
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Calculadora RPN: Criada uma pilha com 30 posições.
+Calculadora RPN: lendo input do arquivo "./src/input01.txt"
+Lendo input: 10
+Lendo input: 5
+Lendo input: +
+Lendo input: 2
+Lendo input: *
+Calculadora RPN: o resultado é 30,000000
+Calculadora RPN: lendo input do arquivo "./src/input02.txt"
+Lendo input: 10
+Lendo input: 2
+Lendo input: ^
+Lendo input: 2
+Lendo input: /
+Lendo input: 5
+Lendo input: 5
+Lendo input: *
+Lendo input: -
+Calculadora RPN: o resultado é 25,000000

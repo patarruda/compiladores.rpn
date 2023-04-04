@@ -8,15 +8,15 @@ Roteiro:
 - Implementar uma linguagem RPN stacker em Java/python [ou qualquer linguagem] usando uma pilha como estrutura de dados
 - Programa le um arquivo com a expressao em RPN e avaliar
 
-Exemplo de entrada:
-10
-10
-+
+Exemplo de entrada:  
+10  
+10  
++  
 
 
-## Inputs (arquivos):
-input01.txt
-input02.txt
+## Inputs (arquivos): 
+input01.txt  
+input02.txt  
 
 
 ## Saída:

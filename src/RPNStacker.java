@@ -120,6 +120,7 @@ public class RPNStacker {
         
         } catch (IOException e){
             System.out.format("Calculadora RPN: O arquivo \"%s\" não foi encontrado.%n", nomeArquivo);
+            System.out.println(e.getMessage());
         } catch (IllegalArgumentException | ArithmeticException e) {
             System.out.println("Calculadora RPN: " + e.getMessage());
         } catch (ArrayIndexOutOfBoundsException e) {
